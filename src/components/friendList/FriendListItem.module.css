@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+
+  margin-bottom: 5px;
+  background-color: honeydew;
+  border-radius: 3px;
+}
+
+.status_online {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.status_offline {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+.avatar {
+}
+
+.name {
+}

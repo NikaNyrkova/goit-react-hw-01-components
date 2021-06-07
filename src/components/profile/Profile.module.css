@@ -1,0 +1,36 @@
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  background-color: rgb(252, 246, 245);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 150px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tag,
+.location {
+  text-align: center;
+  color: gray;
+}
+
+.stats {
+  display: flex;
+  margin: 10px -10px;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+}
